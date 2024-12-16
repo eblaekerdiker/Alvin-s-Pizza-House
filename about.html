@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alvin's Pizzeria">
+    <meta name="keywords" content="pizza restaurant, pizza near me">
+    <meta name="author" content="Ebla Web Design">
+    <title>Alvin's Pizzeria About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <div id="overlay">
+        <div>
+            <i class="fa fa-times" title="button to close mobile navigation" onclick="off()"></i>
+        </div>
+        <div class="overlay-text">
+            <a href="index.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="about.html">ABOUT</a>
+            <a href="order.html" class="order-nav">ORDER</a>
+        </div>
+    </div>
+    <header>
+        <nav class="nav full-nav">
+            <div>
+                <img src="images/alvins_pizza_resturant_logo.png" alt="alvin's logo" style="width: 25%;">
+            </div>
+            <div>
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="about.html">ABOUT</a>
+                <a href="order.html" class="order-nav">ORDER</a>
+            </div>
+        </nav>
+
+        <nav class="nav mobile-nav">
+            <div>
+                <img src="images/alvins_pizza_resturant_logo.png" alt="alvin's logo" style="width: 25%;">
+            </div>
+            <div>
+                <i class="fa-solid fa-bars" title="button to open navigation" onclick="on()"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="red-spacer"></div>
+        <h1>About Alvin's</h1>
+        <div class="about">
+            <img src="images/alvins_pizza_restuarant_owner.png" alt="alvins owner" loading="lazy" style="width: 85%;">
+            <div class="about-child2">
+                <div>
+                    <h2>Our Mission</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil minima consectetur fuga maxime. Deleniti atque hic iusto, dicta porro architecto illo dignissimos quos, enim voluptatem sed natus animi tempora optio!</p>
+                    <a href="order.html">Order</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/alvins_pizza_resturant_logo.png" alt="alvins logo" style="width: 10%;" loading="lazy">
+        </div>
+        <div>
+            <div>
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="about.html">ABOUT</a>
+                <a href="order.html" >ORDER</a>
+            </div>
+            <div>
+                <h4>Copyright 2023 Alvin's Pizzeria</h4>
+            </div>
+        </div>
+        <div>
+            <img src="images/alvins_instagram.png" alt="alvins instagram logo" style="width: 10%;" loading="lazy">
+            <img src="images/Alvins_facebook.png" alt="alvins facebook logo" style="width: 10%;" loading="lazy">
+
+        </div>
+    </footer>
+</body>
+</html>
